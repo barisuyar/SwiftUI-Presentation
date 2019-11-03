@@ -45,6 +45,6 @@ struct WordCell: View {
 
 struct WordCell_Previews: PreviewProvider {
     static var previews: some View {
-        WordCell(word: Word(word: "ajhsdkajsdjk", mean: "asdkasd", sentence: "Auhasduhasudhasd asdasdasd adsasda asdoıasd asdoıa oısdao ıasdo oaısd", synonym: "aısdhauhsd"))
+        WordCell(word: Word(word: "Library", mean: "Kitaplık", sentence: "One of the main points of interest at the home of Mr. Gladstone is the library.", synonym: "aısdhauhsd"))
     }
 }
