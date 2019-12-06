@@ -26,11 +26,9 @@ struct WordCell: View {
             }.padding(EdgeInsets(top: 4, leading: 0, bottom: 10, trailing: 0))
                 .background(Color.orange)
             HStack {
-                Spacer()
                 Text(word.sentence).lineLimit(10)
                     .multilineTextAlignment(.center)
                     .foregroundColor(.gray)
-                Spacer()
             }.padding(EdgeInsets(top: 8, leading: 8, bottom: 8, trailing: 8))
         }.cornerRadius(15)
          .overlay(

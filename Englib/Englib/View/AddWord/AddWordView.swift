@@ -14,7 +14,6 @@ struct AddWordView: View {
     
     var body: some View {
         NavigationView {
-            VStack {
                 Form {
                     Section(header: Text("Word")) {
                         TextField("", text: $addWordViewModel.word)
@@ -25,7 +24,7 @@ struct AddWordView: View {
                     }
                     
                     Section(header: Text("Synonym")) {
-                        TextField("Enter Synonym..", text: $addWordViewModel.synonym)
+                        TextField("Enter Synonym..", text: $addWordViewModel.synonym).listRowBackground(Color.gray).disabled(true)
                     }
                     
                     Section(header: Text("Sentence")) {
@@ -39,7 +38,6 @@ struct AddWordView: View {
                         }
                     }
                 }
-            }
         .navigationBarTitle("Add Word")
         }
     }
