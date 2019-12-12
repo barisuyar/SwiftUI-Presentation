@@ -39,10 +39,6 @@ struct WordListView: View {
     private func showAddWordView() {
         self.showAddWord = true
     }
-    
-    private func deleteWord(_ index: Int) {
-        
-    }
 }
 
 struct WordListView_Previews: PreviewProvider {

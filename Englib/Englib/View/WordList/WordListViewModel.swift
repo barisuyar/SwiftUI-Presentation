@@ -22,8 +22,4 @@ class WordListViewModel: ObservableObject {
             self.words = words
         }
     }
-    
-    func deleteWord(_ index: Int) {
-        
-    }
 }
